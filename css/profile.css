@@ -1,0 +1,14 @@
+.parent{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.l,.r{
+	width: 30%;
+	border: 2px solid blue;
+	padding: 2%;
+	margin: 1%;
+	text-align: center;
+	border-radius: 10px;
+
+}
