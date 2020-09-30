@@ -1,0 +1,49 @@
+{
+	"details":{
+        "image":"./images/profile.jpg",
+		"name":"Vyshnavi Thamatam",
+		"email":"vyshnavithamatam@gmail.com",
+		"phoneno":9876543210
+	},
+    "career":{"objective":"A motivated software engineer seeking for the position where I can use my talent and knowledge and gain much knowledge working in the organization."},
+	"education":[{
+		"Sno":1,
+		"Institute":"DBS Institute of Technology",
+		"Qualification":"B.Tech",
+		"Percentage":84,
+		"Duration":"2017-2021"
+	},
+    {
+    	"Sno":2,
+		"Institute":"Sri Srinivasa Junior College",
+		"Qualification":"Intermediate",
+		"Percentage":97.6,
+		"Duration":"2015-2017"
+    },
+    {
+    	"Sno":3,
+		"Institute":"ZPP High School",
+		"Qualification":"10th class",
+		"Percentage":9.2,
+		"Duration":"2014-2015"
+    }],
+    "technicalskills":[{
+    	"skill":"Java",
+    	"Proficiency":"Beginner"
+    },
+    {
+    	"skill":"C",
+    	"Proficiency":"Advanced"
+
+    },
+    {
+    	"skill":"Python",
+    	"Proficiency":"Beginner"
+
+    }],
+    "contactdetails":{
+    	"PhoneNo":9876543210,
+    	"Email":"vyshnavithamatam@gmail.com"
+    }
+
+}

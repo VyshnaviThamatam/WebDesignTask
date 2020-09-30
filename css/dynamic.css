@@ -1,0 +1,57 @@
+table,th,td{
+	border: 2px solid blue;
+	border-collapse: collapse;
+}
+.child{
+	text-align: center;
+	
+}
+#name,#email,#phone{
+	text-align: left;
+}
+/*minimum width 320px and maximum width 480px----mobile view*/
+@media only screen and (min-width: 320px) and (max-width: 480px)
+{
+	.parent{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	.parent>div{
+	width: 100%;
+    }
+	body{
+		background: pink;
+	}
+}
+/*for tabs*/
+@media only screen and (min-width: 481px) and (max-width: 760px){
+	.parent{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	.parent>div{
+	width: 100%;
+    }
+    body{
+    	background: teal;
+    }
+}
+
+/*for mini desktops*/
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+	.parent{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	.parent>div{
+	width: 100%;
+    }
+   body{
+   	background: yellow;
+   }
+   
+
+}
